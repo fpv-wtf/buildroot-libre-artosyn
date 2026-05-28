@@ -19,5 +19,5 @@
 
 ::sysinit:/bin/hostname -F /etc/hostname
 ::sysinit:/usr/bin/env GLIBC_TUNABLES=glibc.pthread.rseq=0 /etc/init.d/rcS
-console::askfirst:/usr/bin/env GLIBC_TUNABLES=glibc.pthread.rseq=0 /bin/sh
+console::askfirst:/usr/bin/env GLIBC_TUNABLES=glibc.pthread.rseq=0 /bin/cttyhack /bin/sh
 ::shutdown:/usr/bin/env GLIBC_TUNABLES=glibc.pthread.rseq=0 /etc/init.d/rcK
