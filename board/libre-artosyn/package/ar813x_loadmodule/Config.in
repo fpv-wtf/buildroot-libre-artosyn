@@ -1,0 +1,4 @@
+config BR2_PACKAGE_AR813X_LOADMODULE
+	bool "ar813x_loadmodule"
+	help
+	  Build and install the ar813x_loadmodule userspace utility.
